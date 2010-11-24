@@ -102,9 +102,10 @@ msgstr "&laquo; &Auml;ltere Beitr&auml;ge"
 msgid "Newer Entries &raquo;"
 msgstr "Neuere Beitr&auml;ge &raquo;"
 
+# password protected -- it's not possible in German to seperate the two words, therefore "passwortgesch&uuml;tzt" will be easier to read.
 #: comments.php:7
 msgid "This post is password protected. Enter the password to view comments."
-msgstr "Die Beitrag ist passwort-geschützt. Bitte geben Sie das Passwort ein, um die Kommentare zu sehen."
+msgstr "Die Beitrag ist passwortgesch&uuml;tzt. Bitte geben Sie das Passwort ein, um die Kommentare zu sehen."
 
 #: comments.php:16
 msgid "No Comments Yet"
@@ -176,9 +177,10 @@ msgstr "Webseite"
 msgid "Comment"
 msgstr "Kommentar"
 
+# There was a typo in the German translation. "published" = "ver&ouml;ffentlicht"
 #: comments.php:76
 msgid "<strong>Note:</strong> HTML is allowed. Your email address will <strong>never</strong> be published."
-msgstr "<strong>Anmerkung:</strong> HTML ist erlaubt. Ihre Emailadresse wird <strong>niemals</strong> ver&auml;ffentlicht."
+msgstr "<strong>Anmerkung:</strong> HTML ist erlaubt. Ihre Emailadresse wird <strong>niemals</strong> ver&ouml;ffentlicht."
 
 #: comments.php:77
 msgid "Subscribe to comments"
@@ -188,9 +190,10 @@ msgstr "Kommentare abonnieren"
 msgid "Submit Comment"
 msgstr "Kommentar abschicken"
 
+# It's true that "About" translates to "&Uuml;ber" but you would normally say "About us", therefore "&Uuml;ber uns" ... otherwise the word could be misinterpreted in it's second meaning and use as "over".
 #: footer.php:8
 msgid "About"
-msgstr "&Uuml;ber"
+msgstr "&Uuml;ber uns"
 
 #: footer.php:12
 msgid "Did you know you can write your own about section just like this one? It's really easy. Head into the the <em>Traction Options</em> menu and check out the footer section. Type some stuff in the box, click save, and your new about section shows up in the footer."
@@ -390,17 +393,19 @@ msgstr "Tagzeile anzeigen"
 msgid "Check to show your tagline below your logo."
 msgstr "Ausw&auml;hlen um Tagzeile unter dem Logo anzuzeigen."
 
+# From here on: please do NOT translate "slider" with "Schieberegler" ... this would rather be the translation for "toggle switch" as you would find it on your iPhone, an on/off slider. In this particular case I would stick with the English term in the German translation, simply call it "Slider" in German. It would also be possible to describe this element in webdesign as "Diashow" (slideshow) or even better "Animation" (animation) in German.
 #: functions/traction-extend.php:60
 msgid "Featured Slider <span>take control of your featured slider.</span>"
-msgstr "Schieberegler für Empfehlungen <span>kontrollieren Sie Ihren Schieberegler für Empfehlungen.</span>"
+msgstr "Slider für Empfehlungen <span>kontrollieren Sie Ihren Slider für Empfehlungen.</span>"
 
 #: functions/traction-extend.php:61
 msgid "The featured slider shows demo posts only in the free trial version of Traction."
 msgstr "Der Schieberegler für Empfehlungen zeigt nur Demo-Beitr&auml;ge in der kostenlosen Testversion von Traction."
 
+# No full stop in English, took it away in German as well.
 #: functions/traction-extend.php:64
 msgid "Enable featured slider"
-msgstr "Schieberegler aktivieren."
+msgstr "Schieberegler aktivieren"
 
 #: functions/traction-extend.php:66
 msgid "Check to turn on your featured slider."
@@ -418,21 +423,29 @@ msgstr "Ausw&auml;hlen um den Schieberegler automatisch zu starten."
 msgid "Autostart delay"
 msgstr "Autostartverzögerung"
 
+# I see no reason for an abbreviation in the German translation over here, therefore "Sek." corrected to "Sekunden".
 #: functions/traction-extend.php:78
 msgid "Delay before the autostart and the delay between slides in milliseconds (1000 = 1 second)."
-msgstr "Verz&ouml;gerung vor dem Autostart und zwischen den Folien in Millisekunden (1000 = 1 Sek.)."
+msgstr "Verz&ouml;gerung vor dem Autostart und zwischen den Folien in Millisekunden (1000 = 1 Sekunde)."
 
+# Although I don't use this feature ... I reckon "speed" in this case means how long the slide is being shown. Therefore I translated it to "Standdauer" which -- translated directly -- means "standing duration".
 #: functions/traction-extend.php:82
 msgid "Slide animation speed"
-msgstr "Foliengeschwindigkeit"
+msgstr "Standdauer der Folie"
 
+# Again, is this really speed? Or rather duration?
+# I see no reason for an abbreviation in the German translation over here, therefore "Sek." corrected to "Sekunden".
 #: functions/traction-extend.php:85
 msgid "Speed of the sliding animation in milliseconds (1000 = 1 second)."
-msgstr "Geschwindigkeit der Folie in Millisekunden (1000 = 1 Sek.)."
+msgstr "Geschwindigkeit der Folie in Millisekunden (1000 = 1 Sekunden)."
 
+# ENG = GERMAN
+# "fade in" = "einblenden"
+# "fade out" = "ausblenden"
+# "fade" in the meaning of "transition" = "&uuml;berblenden"
 #: functions/traction-extend.php:89
 msgid "Fade speed"
-msgstr "Abklinggeschwindigkeit"
+msgstr "&Uuml;berblendungsgeschwindigkeit"
 
 #: functions/traction-extend.php:92
 msgid "Speed of the fading animation in milliseconds (1000 = 1 second)."
@@ -482,9 +495,10 @@ msgstr "Die Seiten-ID der Seiten, die Sie nicht im Navigationsmenu anzeigen woll
 msgid "Hide all categories"
 msgstr "Alle Kategorien verbergen"
 
+# "ä" corrected to HTML conform "&auml;"
 #: functions/traction-extend.php:126
 msgid "Check this box to hide all categories."
-msgstr "Diese Option wählen um alle Kategorien zu verbergen."
+msgstr "Diese Option w&auml;hlen um alle Kategorien zu verbergen."
 
 #: functions/traction-extend.php:130
 msgid "Exclude specific categories"
@@ -498,9 +512,10 @@ msgstr "Die Kategorie-ID der Seiten, die Sie nicht im Navigationsmenu anzeigen w
 msgid "Hide home navigation menu item"
 msgstr "Hauptseite im Navigationsmenu verbergen"
 
+# "ä" corrected to HTML conform "&auml;"
 #: functions/traction-extend.php:140
 msgid "Check this box if you are using a static page as your homepage instead of your blog (the default). The extra <em>Home</em> menu item will be removed."
-msgstr "Auswählen wenn Sie eine statische Seite als Hauptseite anzeigen wollen statt Ihres Blogs (Standard). Der Menueintrag <em>Home<em> wird dann entfernt."
+msgstr "Ausw&auml;hlen wenn Sie eine statische Seite als Hauptseite anzeigen wollen statt Ihres Blogs (Standard). Der Menueintrag <em>Home<em> wird dann entfernt."
 
 #: functions/traction-extend.php:144
 msgid "Advertising <span>fill in your ad spots</span>"
@@ -544,9 +559,10 @@ msgstr "Alternativtext des Werbebanners im Seitenkopf"
 msgid "Enable sidebar adbox"
 msgstr "Werbebox in Seitenleiste aktivieren"
 
+# "to" was not translated correctly
 #: functions/traction-extend.php:177
 msgid "Check this box to enable the sidebar adbox."
-msgstr "Ausw&auml;hlen im Werbebox in der Seitenleiste zu aktivieren."
+msgstr "Ausw&auml;hlen um Werbebox in der Seitenleiste zu aktivieren."
 
 #: functions/traction-extend.php:181
 msgid "Ad 1 file name"
@@ -596,9 +612,10 @@ msgstr "Anmeldelinks <span>Einstellungen zum Anmeldelink</span>"
 msgid "Enable Twitter"
 msgstr "Twitter aktivieren"
 
+# "menu" is "Men&uuml;" in German
 #: functions/traction-extend.php:223
 msgid "Hip to Twitter? Check this box. Please set your Twitter username in the Twitter menu."
-msgstr "Nutzen Sie Twitter? Box aktivieren und den Twitter-Nutzernamen in das Twittermenu eingeben."
+msgstr "Nutzen Sie Twitter? Box aktivieren und den Twitter-Nutzernamen in das Twittermen&uuml; eingeben."
 
 #: functions/traction-extend.php:227
 msgid "Enable Facebook"
@@ -620,9 +637,11 @@ msgstr "Box aktivieren um einen Link zu Ihrer Flickr anzuzeigen."
 msgid "Disable all"
 msgstr "Alle deaktivieren"
 
+# "follow icons" ... do you mean all icons in the "Subscribe" bar on top of the sidebar on the right hand side? If so, I'd rather translate "follow icons" to "Symbole zum Abbonieren" (icons for subscription).
+# "override" would be "&uuml;berschreiben" in German, but this could easily be mistaken. I'd suggest to translate a little different (see translation), meaning "With this option all other settings will be ignored."
 #: functions/traction-extend.php:241
 msgid "Check this box to hide all follow icons (including RSS). This option overrides any other settings."
-msgstr "Box aktivieren um alle Symbole (auch RSS) zu verbergen. Diese Option &uuml;bergeht alle anderen Einstellungen."
+msgstr "Box aktivieren um alle Symbole zum Abbonieren (auch RSS) zu verbergen. Mit dieser Option werden alle anderen Einstellungen ignoriert."
 
 #: functions/traction-extend.php:245
 msgid "Facebook link"
@@ -646,11 +665,11 @@ msgstr "Seitenleiste <span>Seitenleiste anpassen</span>"
 
 #: functions/traction-extend.php:258
 msgid "Disable sidebox"
-msgstr "Seitenleiste deaktivieren"
+msgstr "Container in der Seitenleiste deaktivieren"
 
 #: functions/traction-extend.php:260
 msgid "Check this box to disable the sidebar sidebox."
-msgstr "Box aktivieren um Seitenleiste abzuschalten."
+msgstr "Box aktivieren um den Container in der Seitenleiste abzuschalten."
 
 #: functions/traction-extend.php:264
 msgid "Custom code"
@@ -658,7 +677,7 @@ msgstr "Eigener Code"
 
 #: functions/traction-extend.php:266
 msgid "Check this box to use custom code for the sidebox."
-msgstr "Box aktivieren um eigenen Code f&uuml;r die Seitenleiste einzugeben."
+msgstr "Box aktivieren um eigenen Code f&uuml;r den Container in der Seitenleiste einzugeben."
 
 #: functions/traction-extend.php:270
 msgid "Custom code content"
